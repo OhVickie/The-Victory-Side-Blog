@@ -24,8 +24,12 @@
 	text-align:center;
 	font-size: 4rem!important;
 	/*font: 'Berkshire Swash', comic sans ms, courier!important;*/
-	font-family: 'SeaweedScipt', cursive!important;
+	font-family: 'Seaweed Script', cursive!important;
 	letter-spacing: .5rem;
+}
+
+.title-plus{
+	font-size: 2rem!important;
 }
 
 .title:hover{
