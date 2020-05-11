@@ -24,7 +24,8 @@
 	text-align:center;
 	font-size: 4rem!important;
 	/*font: 'Berkshire Swash', comic sans ms, courier!important;*/
-	font-family: 'Stalemate', cursive!important;
+	font-family: 'SeaweedScipt', cursive!important;
+	letter-spacing: .5rem;
 }
 
 .title:hover{
@@ -63,7 +64,6 @@ header{
 	background-size: cover;
 	background-position: center;
 	padding:35px;*/
-
 }
 
 nav{
