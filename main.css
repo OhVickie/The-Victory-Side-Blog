@@ -24,7 +24,8 @@
 	text-align:center;
 	font-size: 4rem!important;
 	/*font: 'Berkshire Swash', comic sans ms, courier!important;*/
-	font-family: 'Seaweed Script', cursive!important;
+	font-family: 'Mrs Saint Delafield', cursive!important;
+	font-weight: 580!important;
 	letter-spacing: .5rem;
 }
 
@@ -34,7 +35,7 @@
 
 .title:hover{
 	background: none;
-	color: none!important;
+	color: white!important;
 } 
 
 body{
