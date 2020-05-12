@@ -25,8 +25,8 @@
 	font-size: 4rem!important;
 	/*font: 'Berkshire Swash', comic sans ms, courier!important;*/
 	font-family: 'Mrs Saint Delafield', cursive!important;
-	font-weight: 580!important;
-	letter-spacing: .5rem;
+	font-weight: 600!important;
+	letter-spacing: .8rem;
 }
 
 .title-plus{
@@ -51,7 +51,7 @@ body{
 	top: 0;
 	z-index: 10;
 	/*box-shadow: var(--shadow);*/
-	background-size: auto;
+	background-size: cover;
 }
 
 #home-header{
@@ -65,10 +65,8 @@ body{
 
 header{
 	background-image:url(img/cup2.jpeg);
-	/*height: 100vh;
 	background-size: cover;
 	background-position: center;
-	padding:35px;*/
 }
 
 nav{
@@ -138,6 +136,15 @@ h1{
 }**/
 
 /*----------------------------ABOUT PAGE CONTENTS---------------------------*/
+.about__content{
+	margin-top: 4rem;
+}
+
+.about__page--title{
+	padding: 3.5rem;
+	font-size: 8rem;
+}
+
 .intro{
 	color: black;
 	font-size: 25px;
@@ -154,10 +161,26 @@ h1{
 }
 
 /*-----------------------------------BLOG PAGE---------------------------------*/
+.blog-page__content{
+	margin-top: 4rem;
+}
+
+.blog__page--title{
+	padding: 3.5rem;
+	font-size: 8rem;
+}
+
 #slider{
 	width:100%;
 }
 
-.carousel-caption{
 
+/*-----------------------------------CONTACT PAGE---------------------------------*/
+.contact-page__content{
+	margin-top: 4rem;
+}
+
+.contact__page--title{
+	padding: 3.5rem;
+	font-size: 8rem;
 }
