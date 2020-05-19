@@ -16,14 +16,13 @@
 /*-------------------------------Website Title-----------------------------*/
 /*--------------------------Part of Navigation bar-------------------------*/
 
-.title{
+/* .title{
 	color: white;
-	height 40px;
+	height: 40px;
 	padding-left: 30px;
-	text-decoration: none!important; /*use !important when overriding other classes*/
+	text-decoration: none!important; 
 	text-align:center;
 	font-size: 4rem!important;
-	/*font: 'Berkshire Swash', comic sans ms, courier!important;*/
 	font-family: 'Mrs Saint Delafield', cursive!important;
 	font-weight: 600!important;
 	letter-spacing: .8rem;
@@ -31,7 +30,7 @@
 
 .title-plus{
 	font-size: 2rem!important;
-}
+} */
 
 .title:hover{
 	background: none;
@@ -124,6 +123,12 @@ h1{
 
 .navbar-toggler{
 	border: none!important;
+}
+
+.navbar-brand{
+	color: white!important;
+	font-family: 'Mrs Saint Delafield', cursive!important;
+	letter-spacing: .8rem!important;
 }
 /**.home{
 	display: grid;
