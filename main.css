@@ -34,7 +34,7 @@
 
 .title:hover{
 	background: none;
-	color: white!important;
+	color: #001!important;
 } 
 
 body{
@@ -113,6 +113,7 @@ h1{
 .navbar-nav li a{
 	float: left;
 	text-align: right;
+	color: #001!important;
 }
 
 .navbar{
