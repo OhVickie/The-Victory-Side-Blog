@@ -125,7 +125,7 @@ h1{
 }
 
 .navbar-brand{
-	color: white!important;
+	color: #001!important;
 	font-family: 'Mrs Saint Delafield', cursive!important;
 	letter-spacing: .8rem!important;
 }
@@ -192,7 +192,7 @@ h1{
 .grid__content--1{
 	background-color: yellowgreen;
 	height: 20rem;
-	
+
 }
 
 .grid__content--2{
