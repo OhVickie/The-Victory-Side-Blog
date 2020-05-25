@@ -16,27 +16,6 @@
 /*-------------------------------Website Title-----------------------------*/
 /*--------------------------Part of Navigation bar-------------------------*/
 
-/* .title{
-	color: white;
-	height: 40px;
-	padding-left: 30px;
-	text-decoration: none!important; 
-	text-align:center;
-	font-size: 4rem!important;
-	font-family: 'Mrs Saint Delafield', cursive!important;
-	font-weight: 600!important;
-	letter-spacing: .8rem;
-}
-
-.title-plus{
-	font-size: 2rem!important;
-} */
-
-.title:hover{
-	background: none;
-	color: #001!important;
-} 
-
 body{
 
 	font-family:courier new;
@@ -126,10 +105,32 @@ h1{
 }
 
 .navbar-brand{
-	color: #001!important;
 	font-family: 'Mrs Saint Delafield', cursive!important;
 	letter-spacing: .8rem!important;
 }
+
+.title{
+	color: white;
+	height: 40px;
+	padding-left: 30px;
+	text-decoration: none!important; 
+	text-align:center;
+	font-size: 4rem!important;
+	font-family: 'Mrs Saint Delafield', cursive!important;
+	font-weight: 600!important;
+	letter-spacing: .8rem;
+}
+
+.title-plus{
+	color: #001;
+	font-size: 2rem!important;
+} 
+
+.title:hover{
+	background: none;
+	color: #001!important;
+} 
+
 /**.home{
 	display: grid;
 	grid-gap: 20px;
@@ -179,8 +180,8 @@ h1{
 	width:100%;
 }
 
-.row{
-	margin: 1rem;
+.col {
+	margin-right: .5rem;
 }
 
 .blog__grid{
