@@ -179,6 +179,10 @@ h1{
 	width:100%;
 }
 
+.row{
+	margin: 1rem;
+}
+
 .blog__grid{
 	margin: 0 auto;
 	text-align: center;
