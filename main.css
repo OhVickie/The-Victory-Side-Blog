@@ -24,21 +24,20 @@ body{
 }
 
 /*-----------------------------Navigation at top------------------------------*/
-#nav-bar{
+/* #nav-bar{
 	position: fixed!important;
 	top: 0;
 	z-index: 10;
-	/*box-shadow: var(--shadow);*/
 	background-size: cover;
 }
 
 #home-header{
-	background-image: /**-moz-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0,5)),**/ url(img/cup2.jpeg);
+	background-image: url(img/cup2.jpeg);
 	height: 100vh;
 	background-size: cover;
 	background-position: center;
 	padding:35px;
-}
+} */
 
 header{
 	background-image: url(img/cup2.jpeg);
@@ -58,12 +57,11 @@ h1{
 	font-size: 50px;
 	text-align: center;
 }
-
+/* 
 #nav-bar ul{
 	margin:0;
 	padding:0px 0px 0px 35px;
-	display:inline;
-	float: right;
+	display:inline; 
 }
 
 #nav-bar ul li{
@@ -78,12 +76,12 @@ h1{
 	font-size: 1.1rem;
 	text-decoration: none;
 	text-transform: uppercase;
-	/*box-shadow: var(--shadow);*/
+	box-shadow: var(--shadow);
 }
 
 .nav-link:hover{
-	/*background: var(--dark);
-	color: var(--light);*/
+	background: var(--dark);
+	color: var(--light);
 	color: #ffcccc;
 	border: 1.5px solid white;
 }
@@ -98,7 +96,7 @@ h1{
 .navbar{
 	background:var(--shadow);
 
-}
+} */
 
 .navbar-toggler{
 	border: none!important;
@@ -108,13 +106,13 @@ h1{
 	font-family: 'Mrs Saint Delafield', cursive!important;
 	letter-spacing: .8rem!important;
 }
-
+/* 
 .title{
 	color: white;
 	height: 40px;
 	padding-left: 30px;
 	text-decoration: none!important; 
-	text-align:center;
+	text-align: center;
 	font-size: 4rem!important;
 	font-family: 'Mrs Saint Delafield', cursive!important;
 	font-weight: 600!important;
@@ -129,7 +127,7 @@ h1{
 .title:hover{
 	background: none;
 	color: #001!important;
-} 
+}  */
 
 /**.home{
 	display: grid;
