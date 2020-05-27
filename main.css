@@ -104,7 +104,7 @@ h1{
 
 .navbar-brand{
 	font-family: 'Mrs Saint Delafield', cursive!important;
-	letter-spacing: .8rem!important;
+	letter-spacing: .5rem!important;
 }
 /* 
 .title{
@@ -138,6 +138,11 @@ h1{
 	width: 100%;
 	box-shadow: var(--shadow);
 }**/
+
+.hero-section{
+	width: 90%;
+	margin:0 auto;
+}
 
 /*----------------------------ABOUT PAGE CONTENTS---------------------------*/
 .about__content{
@@ -178,9 +183,9 @@ h1{
 	width:100%;
 }
 
-.col {
+/* .col {
 	margin-right: .5rem;
-}
+} */
 
 .blog__grid{
 	margin: 0 auto;
