@@ -18,7 +18,7 @@
 
 body{
 
-	font-family:courier new;
+	font-family: 'Montserrat', sans-serif;
 	color: #66004d;
 	margin: 0;
 }
@@ -49,10 +49,6 @@ body{
 	background-size: cover;
 	background-position: center;
 } */
-
-nav{
-	font-family:courier new;
-}
 
 h1{
 	margin:0;
@@ -91,14 +87,20 @@ h1{
 	border: 1.5px solid white;
 }
 
-
 .navbar-nav li a{
 	float: left;
 	text-align: right;
 	color: #001!important;
 }
-
  */
+
+nav{
+    margin-bottom: 4.5rem;
+}
+
+/* .navbar{
+    padding-bottom: 4.5rem;
+} */
 
 .navbar-toggler{
 	border: none!important;
@@ -107,7 +109,32 @@ h1{
 .navbar-brand{
 	font-family: 'Mrs Saint Delafield', cursive!important;
 	letter-spacing: .5rem!important;
+    font-size: 3rem;
+    font-weight: 450;
 }
+
+.logo-1{
+	display: inline-block;
+	position: relative;
+	top: -1rem;
+}
+
+.logo-2{
+	display: inline-block;
+	position: relative;
+	top: 1.4rem;
+	left: -9rem;
+}
+
+.nav-item{
+    padding:0 18px;
+}
+
+.nav-link{
+	font-size: 1.2rem;
+	color: maroon;
+}
+
 /* 
 .title{
 	color: white;
@@ -121,10 +148,6 @@ h1{
 	letter-spacing: .8rem;
 }
 
-.title-plus{
-	color: #001;
-	font-size: 2rem!important;
-} 
 
 .title:hover{
 	background: none;
@@ -159,16 +182,25 @@ h1{
 }
 
 .hero-text{
-	text-align: center;
+	text-align: left;
 }
 
-.lead{
-	line-height: 1.4;
+.hero-text h1{
+	text-align: left;
+}
+
+.hero-message{
+	line-height: 1.6;
 	margin: 3rem 0;
 }
 
+.browse-menu-btn{
+	margin-top: 2rem;
+	font-size: 1.4rem;
+}
+
 .subscription-box{
-	background-color: #6190e8;
+	background-color: #a7bfe8;
 	width: 90%;
 	margin:0 auto;
 	padding: 2rem;
@@ -176,12 +208,12 @@ h1{
 
 /*----------------------------ABOUT PAGE CONTENTS---------------------------*/
 .about__content{
-	margin-top: 4rem;
+	
 }
 
 .about__page--title{
-	padding: 3.5rem;
-	font-size: 8rem;
+	padding: 1.5rem;
+	font-size: 5rem;
 }
 
 .intro{
@@ -201,12 +233,12 @@ h1{
 
 /*-----------------------------------BLOG PAGE---------------------------------*/
 .blog-page__content{
-	margin-top: 4rem;
+	
 }
 
 .blog__page--title{
-	padding: 3.5rem;
-	font-size: 8rem;
+	padding: 1.5rem;
+	font-size: 5rem;
 }
 
 #slider{
@@ -256,10 +288,49 @@ h1{
 
 /*-----------------------------------CONTACT PAGE---------------------------------*/
 .contact-page__content{
-	margin-top: 4rem;
+	
 }
 
 .contact__page--title{
-	padding: 3.5rem;
-	font-size: 8rem;
+	padding: 1.5rem;
+	font-size: 5rem;
 }
+
+.contact--form{
+	margin: 0 auto;
+}
+
+.form-input{
+	color:white;
+	font-weight:500;
+	font-size: 1.2rem;
+	border-radius: 5px;
+	line-height: 1.4;
+	background-color: transparent;
+	border:2px solid #CC6666;
+	transition: all 0.3s;
+	padding: .8rem;
+	margin-bottom: 1rem;
+	width:50%;
+	box-sizing: border-box;
+	outline:0;
+}
+
+.submit{
+	width: 50%;
+	background:#CC6666;
+	border-radius:5px;
+	border:0;
+	cursor:pointer;
+	color:white;
+	font-size:24px;
+	padding-top:.6rem;
+	padding-bottom:.6rem;
+	transition: all 0.3s;
+	margin: auto;
+	font-weight:700;
+  }
+
+  .submit:hover{
+	background:#CC4949; 
+  }

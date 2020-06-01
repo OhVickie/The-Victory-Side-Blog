@@ -14,25 +14,28 @@
 <body>
 	<header>
 		<section id="nav-bar">
-			<nav class="navbar navbar-expand-lg navbar-light">
-				<h1 class="logoHeader">
-					<a href="homepage.html" class="navbar-brand title title-plus">
-						<strong>The Victory Side</strong>
-					</a>
-				</h1>
-				
-				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-    				<span class="navbar-toggler-icon"></span>
-  				</button>
-				<div class="collapse navbar-collapse" id="navbarNav">
-					<ul class="navbar-nav ml-auto">
-						<li class="nav-item"><a class="nav-link" href="menupage.html">Menu</a></li>
-						<li class="nav-item"><a class="nav-link" href="blogpage.html">Blog</a></li>
-						<li class="nav-item"><a class="nav-link" href="contactpage.html">Contact</a></li>
-					</ul>
-				</div>
-
-			</nav>
+			<div class="container-fluid">
+				<nav class="navbar navbar-expand-lg navbar-light">
+					<h1 class="logoHeader">
+						<a href="homepage.html" class="navbar-brand title title-plus">
+							<span>Victory's Tray</span>
+						</a>
+					</h1>
+					
+					<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+						<span class="navbar-toggler-icon"></span>
+					  </button>
+					<div class="collapse navbar-collapse" id="navbarNav">
+						<ul class="navbar-nav ml-auto">
+							<li class="nav-item"><a class="nav-link" href="menupage.html">Menu</a></li>
+							<li class="nav-item"><a class="nav-link" href="blogpage.html">Blog</a></li>
+							<li class="nav-item"><a class="nav-link" href="contactpage.html">Contact</a></li>
+						</ul>
+					</div>
+	
+				</nav>
+			</div>
+			
 		</section>
 	</header>
 
@@ -41,16 +44,13 @@
 
 		<div class="contact--form">
 			<form>
-				Name: <br>
-				<input type="text" name="fullName">
+				<input type="text" name="fullName" placeholder="Full name" class="form-input">
 				<br><br>
-				Email: <br>
-				<input type="text" name="email"></input>
+				<input type="text" name="email" placeholder="Email"class="form-input"></input>
 				<br><br>
-				Inquiry:<br>
-				<textarea name="inquiry"></textarea>
+				<textarea name="inquiry" placeholder="Inquiry"class="form-input"></textarea>
 				<br><br>
-				<input type="submit" value="Submit">
+				<input type="submit" value="Submit" class="submit">
 			</form>
 
 		</div>
