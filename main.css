@@ -108,7 +108,7 @@ nav{
 
 .navbar-brand{
 	font-family: 'Mrs Saint Delafield', cursive!important;
-	letter-spacing: .5rem!important;
+	letter-spacing: .1rem!important;
     font-size: 3rem;
     font-weight: 450;
 }
@@ -123,7 +123,7 @@ nav{
 	display: inline-block;
 	position: relative;
 	top: 1.4rem;
-	left: -9rem;
+	left: -6rem;
 }
 
 .nav-item{
