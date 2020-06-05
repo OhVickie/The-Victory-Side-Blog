@@ -59,17 +59,7 @@ h1{
 	text-align: center;
 }
 /* 
-#nav-bar ul{
-	margin:0;
-	padding:0px 0px 0px 35px;
-	display:inline; 
-}
 
-#nav-bar ul li{
-	color: white;
-	display:inline-block;
-	padding:0 10px;
-}
 
 #nav-bar ul li a {
 	color: white;
@@ -204,6 +194,11 @@ nav{
 	width: 90%;
 	margin:0 auto;
 	padding: 2rem;
+}
+
+.feature-box{
+	background: palegoldenrod;
+	height: 50rem;
 }
 
 /*----------------------------ABOUT PAGE CONTENTS---------------------------*/
