@@ -23,7 +23,7 @@ body{
 	margin: 0;
 }
 
-.container-fluid{
+.header-1{
     padding: 3% 10%;
 }
 
@@ -49,6 +49,10 @@ body{
 	background-size: cover;
 	background-position: center;
 } */
+
+#home-page{
+	background: #E8EC67;
+}
 
 h1{
 	margin:0;
@@ -160,9 +164,11 @@ nav{
 
 .hero-title{
 	font-family: 'Manrope', sans-serif;
-	font-size: 3rem;
-	font-weight: 600;
-	line-height: 1.4
+	font-size: 4rem;
+	font-weight: 700;
+	line-height: 1;
+	color: #584d3d;
+	/* color: #757761; */
 }
 
 .hero-img{
@@ -187,6 +193,7 @@ nav{
 .browse-menu-btn{
 	margin-top: 2rem;
 	font-size: 1.4rem;
+	/* border: #bbebed; */
 }
 
 .subscription-box{
@@ -198,7 +205,7 @@ nav{
 
 .feature-box{
 	background: palegoldenrod;
-	height: 50rem;
+	height: 40rem;
 }
 
 /*----------------------------ABOUT PAGE CONTENTS---------------------------*/
