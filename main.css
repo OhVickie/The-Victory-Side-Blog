@@ -52,6 +52,7 @@ body{
 
 #home-page{
 	background: #E8EC67;
+	padding-bottom: .6rem;
 }
 
 h1{
@@ -158,6 +159,10 @@ nav{
 	box-shadow: var(--shadow);
 }**/
 
+.home__page--more{
+	padding: 0rem;
+}
+
 .hero-div{
 	margin-top: 2rem;
 }
@@ -197,15 +202,29 @@ nav{
 }
 
 .subscription-box{
-	background-color: #a7bfe8;
+	/* background-color: #a7bfe8; */
 	width: 90%;
-	margin:0 auto;
+	margin:2rem auto;
 	padding: 2rem;
+	text-align: center;
+}
+
+.subscription-title{
+	margin-bottom: 2rem;
 }
 
 .feature-box{
-	background: palegoldenrod;
+	background: #fff;
 	height: 40rem;
+}
+
+.subscribe-btn{
+	margin-top: 1rem;
+}
+
+footer{
+	background: #E8EC67;
+	padding-bottom: 1rem;
 }
 
 /*----------------------------ABOUT PAGE CONTENTS---------------------------*/
