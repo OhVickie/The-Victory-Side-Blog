@@ -27,6 +27,9 @@ body{
     padding: 3% 10%;
 }
 
+.header-2{
+	padding: 3% 10% 0;
+}
 
 /*-----------------------------Navigation at top------------------------------*/
 /* #nav-bar{
@@ -41,7 +44,7 @@ body{
 	height: 100vh;
 	background-size: cover;
 	background-position: center;
-	padding:35px;
+	padding: 35px;
 } */
 
 /* header{
@@ -248,7 +251,7 @@ nav{
 
 footer{
 	background: #E8EC67;
-	padding-bottom: 1rem;
+	padding: 1rem;
 }
 
 /*----------------------------ABOUT PAGE CONTENTS---------------------------*/
@@ -278,7 +281,8 @@ footer{
 
 /*-----------------------------------BLOG PAGE---------------------------------*/
 .blog-page__content{
-	
+	text-align: center;
+	padding-bottom: 5rem;
 }
 
 .blog__page--title{
@@ -333,7 +337,8 @@ footer{
 
 /*-----------------------------------CONTACT PAGE---------------------------------*/
 .contact-page__content{
-	
+	text-align: center;
+	padding-bottom: 5rem;
 }
 
 .contact__page--title{
@@ -346,13 +351,13 @@ footer{
 }
 
 .form-input{
-	color:white;
+	color:#006;
 	font-weight:500;
 	font-size: 1.2rem;
 	border-radius: 5px;
 	line-height: 1.4;
 	background-color: transparent;
-	border:2px solid #CC6666;
+	border:2px solid #5bc0de;
 	transition: all 0.3s;
 	padding: .8rem;
 	margin-bottom: 1rem;
@@ -363,7 +368,7 @@ footer{
 
 .submit{
 	width: 50%;
-	background:#CC6666;
+	background:#5bc0de;
 	border-radius:5px;
 	border:0;
 	cursor:pointer;
@@ -377,5 +382,5 @@ footer{
   }
 
   .submit:hover{
-	background:#CC4949; 
+	background: #7bc0de; 
   }
