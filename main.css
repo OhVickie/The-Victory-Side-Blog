@@ -384,3 +384,13 @@ footer{
   .submit:hover{
 	background: #7bc0de; 
   }
+
+  .error__message{
+	  margin: 0 auto 1.3rem;
+	  background: #fe8b8e;
+	  padding: 0rem;
+	  width: 50%;
+	  text-align: center;
+	  font-size: 2rem;
+	  transition: all 0.5s ease;
+  }
